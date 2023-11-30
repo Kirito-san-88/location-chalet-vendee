@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Cottage for rent near Saint-Hilaire-de-Riez in Vendée"
+    />
+    <!-- google-site-verification -->
+    <meta
+      name="google-site-verification"
+      content="1en0oYG-EzXSK4XeWM4CvXoszrsUu3Pf7j32cbYxuLU"
+    />
+    <!-- Open Graph meta pour Facebook -->
+    <meta
+      property="og:title"
+      content="Cottage for rent near Saint-Hilaire-de-Riez in Vendée"
+    />
+    <meta property="og:url" content="http://www.chalet-vendee.fr" />
+    <meta property="og:image" content="img/terrasse-1.webp" />
+    <meta
+      property="og:description"
+      content="Need a quiet place to relax and have a good stay? Do not search any further !
+Our cottage is at your disposal!"
+    />
+    <meta property="og:site_name" content="Cottage for rent in Vendée" />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <title>Cottage for rent in Vendée</title>
+  </head>
+
+  <body>
+    <div id="popup_contact"></div>
+    <header>
+      <nav class="flex">
+        <h1>Cottage for rent in Vendée</h1>
+        <ul>
+          <li><a href="index.html" title="Home">Home</a></li>
+          <li>
+            <a
+              href="https://www.campinglapuertadelsol.com/wp-content/uploads/2021/04/brochure-camping-vendee-2021.pdf"
+              title="Camping booklet"
+              >Camping booklet</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.campinglapuertadelsol.com/wp-content/uploads/2020/02/Re%CC%80glement-inte%CC%81rieur-Puerta-del-Sol-2020.pdf"
+              title="Regulation interior"
+              >Regulation interior</a
+            >
+          </li>
+          <li><a href="#contact_form" title="contact">Contact</a></li>
+          <div>
+            <a href="index.html"><img src="img/france.webp" /></a>
+            <a href="index_en.html"><img src="img/english.webp" /></a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="slide">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="img/terrasse-1.webp"
+                alt="patio 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/terrasse-2.webp"
+                alt="patio 2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5></h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/entree-1.webp"
+                alt="enter 1"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5></h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/entree-2.webp"
+                alt="enter 2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5></h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/entree-3.webp"
+                alt="enter 3"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5></h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/chambre-1.webp"
+                alt="bedroom 1"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <!-- <h5></h5> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/chambre-2.webp"
+                alt="bedroom 2"
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/sdb-1.webp"
+                alt="bathroom 1"
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/sdb-2.webp"
+                alt="bathroom 2"
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/wc.webp" alt="toilet" />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+      <section class="intro">
+        <article>
+          <p>
+            Need a quiet place to relax and have a good stay? Do not search any
+            further !
+          </p>
+          <p>
+            Our cottage is at your disposal from June 12th to September 4th !
+          </p>
+          <p>
+            Enjoy a space equipped with a kitchen with gas hob, mini oven ,
+            microwave , fridge-freezer , living room with sofa bed , a bedroom
+            with a double bed and a bedroom with bunk beds , bathroom and
+            separate toilet ( tv and wifi optional ) for up to 6 people ,
+            located in a 4-star campsite,<br />
+            offering you services such as: <i>a spa</i>,
+            <strong><i>a swimming pool</i></strong
+            >,<strong><i>a children's play area</i></strong> or
+            <strong><i>a restaurant</i></strong> and much more, in a green
+            setting just 15 minutes from the beach.<br />
+            We invite you near Saint-Hilaire-de-Riez, to the campsite "
+            <a
+              href="https://www.campinglapuertadelsol.com/"
+              title="website of camping La Puerta Del Sol"
+              ><i>La Puerta Del Sol</i></a
+            >
+            ", in Vendée.
+          </p>
+          <p>
+            Prices from € 28 per night to € 148 (excluding deals of offers),
+            pets allowed.
+          </p>
+          <p>
+            For more information or for all reservations,
+            <a href="#contact_form" title="contact">Contact us !</a>
+          </p>
+        </article>
+      </section>
+      <section>
+        <div id="map"></div>
+      </section>
+      <section>
+        <form
+          method="#"
+          action="/contactForm"
+          id="contact_form"
+          class="contact"
+          data-lang="en"
+        >
+          <div class="form-group">
+            <div class="form-group">
+              <label for="firstName">First name</label>
+              <input
+                name="firstName"
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder="Enter your first-name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last name</label>
+              <input
+                name="lastName"
+                type="text"
+                class="form-control"
+                id="lastName"
+                placeholder="Enter your last-name"
+              />
+            </div>
+            <label for="email">Address email</label>
+            <input
+              name="email"
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="emailHelp"
+              placeholder="Enter your email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >This email address will not be disclosed to anyone.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject of your request</label>
+            <input
+              name="subject"
+              type="text"
+              class="form-control"
+              id="subject"
+              placeholder="enter your subject"
+            />
+          </div>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter your message..."
+          ></textarea>
+          <div
+            class="h-captcha"
+            data-sitekey="d1df041a-4b77-4682-ada6-c2a1f01d2c07"
+          ></div>
+
+          <input type="submit" class="btn btn-primary button" value="Send" />
+        </form>
+      </section>
+    </main>
+    <footer class="flex-footer">
+      <p class="footer">
+        Copyright © <span id="year"></span> chalet-vendee.fr - All rights
+        reserved - Contact Developer :
+        <a href="mailto:vincentbsr88@gmail.com"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </p>
+    </footer>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
